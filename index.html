@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+
+  <meta charset="UTF-8">
+  <meta prefix="og: http://ogp.me/ns#" property="og:image" content="https://imgur.com/a/joesiU0" /> <!-- Picture of UW-Madison -->
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="css/main.css">
+  <title>Salil Sabnis's Portfolio</title>
+
+</head>
+
+<body id="bg-img" onload="load()">
+  <header id="main-navbar">
+    <div id="navbar">
+      <a href="#home" class="active">Home</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#skills" id="navbar-skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+      <button onclick="changeMode()" title="Toggle Night Mode" id="dark-mode-text">🌙</button> 
+    </div>
+    
+    
+  </header>
+
+  <!-- HOME -->
+
+  <main data-aos="fade-in" id="home" class="major-section">
+    
+    <h1 class="lg-heading">
+      <span class="white-color">Salil</span>
+      <span class="white-color">Sabnis</span>
+    </h1>
+    <h2 class="sm-heading">
+      <span class="white-color">Software Engineer, Agile Learner, Mentor</span><br>
+    </h2>
+    <div class="icons">
+      <a href="https://www.linkedin.com/in/salil-sabnis-a592b75b/" target="_blank" >
+        <i class="fab fa-linkedin fa-1x"></i>
+      </a>
+      <a href="https://github.com/SalilSabnis" target="_blank" >
+        <i class="fab fa-github fa-1x"></i>
+      </a>
+      <a href="https://www.facebook.com/salil.sabnis.7/" target="_blank" >
+        <i class="fab fa-facebook fa-1x"></i>
+      </a>
+     
+      </a>
+    </div>
+  </main>
+
+
+<br>
+<br>
+
+  <!-- ABOUT -->
+
+
+  <main id="about" class="major-section">
+    <h1 data-aos="fade-in" class="md-heading">
+      About
+      <span class="text-blue">Me</span>
+    </h1>
+    <h3 data-aos="fade-in" class="sm-heading">
+      Hello, I'm Salil!
+    </h3>
+    <div data-aos="fade-right" class="about-info">
+      <img src="img/Profile.jpeg" width="240" height="300" alt="Salil Sabnis DP" class="bio-image">
+
+      <div data-aos="fade-right" class="bio">
+        <h3 class="text-blue"><b>BIO</b></h3>
+        <p>I'm high energy engineer with demonstrated success in providing business solutions, presenting in-depth business analysis, building POC’s, making use of data and improving customer experiences. 
+        </p>
+        <br>
+      </div>
+
+      <div data-aos="fade-up" class="card">
+        <h2 class="text-blue">Interests</h2><hr />
+        <p>I have worked on many full-stack projects on both the front-end and back-end, and also end to end solutions
+        for these projects. I am interested in data and love deriving meaningful information out of data sets</p>
+      </div>
+
+      <div data-aos="fade-up" class="card">
+        <h2 class="text-blue">Activities</h2><hr />
+        <p>I like to teach students, play badminton, organize team bonding activities, visting NGO's and helping under-privileged kids
+
+        </p>
+      </div>
+
+      <div data-aos="fade-up" class="card">
+        <h2 class="text-blue">Awards</h2><hr />
+        <p>I have been a great contributor to each team I have been on and received several awards and recognition. 
+        </p>
+      </div>
+    </div>
+  </main>
+
+  <hr data-aos="slide-right" size="4" width="80%"/>
+  
+  <!-- EXPERIENCE -->
+
+  <main id="experience" class="major-section">
+    <h2 data-aos="fade-in" class="md-heading">
+      My
+      <span class="text-blue">Work</span>
+    </h2>
+    <h3 data-aos="fade-in" class="sm-heading">
+      Here's my experience in the industry
+    </h3>
+
+    
+    <div class="experience">
+
+      
+      <div data-aos="fade-up" class="item">
+        <div class="container">
+          <img src="img/experience/sincro.png" height="250px" width="250px" alt="Project" >
+          <div class="overlay">
+            <div class="text">Sincro</div>
+          </div>
+        </div>
+        <button id="read1" onclick="toggleJob('exp1', this.id)" class="btn-dark">Consultant</button>
+        <div id="exp1" class="job job-4" style="display: none">
+            Currently working at the Data & Analytics team at Sincro where in we provide data on how 5000+ dealer websites are performing on a day to day basis
+        </div>
+      </div>
+      
+
+      <div data-aos="fade-up" class="item">
+        <div class="container">
+          <img src="img/experience/cdkglobal.png" height="250px" width="250px" alt="Project" >
+          <div class="overlay">
+            <div class="text">CDK Global</div>
+          </div>
+        </div>
+        <button id="read2" onclick="toggleJob('exp2', this.id)" class="btn-dark">Senior Software Engineer</button>
+        <div id="exp2" class="job job-4" style="display: none">
+          • Worked on projects to improve the response time of reports by moving underlying services to fetch data from Mongo <br>
+          • Worked on processing TB's of clickstream data using Hadoop and Spark<br>
+          
+        </div>
+      </div>
+
+
+
+      <div data-aos="fade-up" class="item">
+          <div class="container">
+            <img src="img/experience/adp.jpg" height="250px" width="250px" alt="Project">
+            <div class="overlay">
+              <div class="text">ADP, Ltd.</div>
+            </div>
+          </div>
+          <button id="read4" onclick="toggleJob('exp3', this.id)" class="btn-dark">Software Engineer</button>
+          <div id="exp3" class="job job-3" style="display: none">
+          • Joined this company as a fresher and got to learn many things like developing Spring Applications, working on Junit etc. <br>
+          • Created an application called Tagit which helps parse URL's into meaningful info <br>
+
+          </div>
+      </div>
+
+	  <div data-aos="fade-up" class="item">
+          <div class="container">
+            <img src="img/experience/teleparadigm.png" height="250px" width="250px" alt="Project">
+            <div class="overlay">
+              <div class="text">Teleparadigm Networks</div>
+            </div>
+          </div>
+          <button id="read4" onclick="toggleJob('exp4', this.id)" class="btn-dark">Intern</button>
+          <div id="exp4" class="job job-4" style="display: none">
+          • Have done internship while  studying in 4th year of my Bachelor's degree and helped in  testing of an health care application <br>
+          
+
+          </div>
+      </div>
+
+
+    </div>
+  </main>
+
+  <hr data-aos="slide-right" size="4" width="80%"/>
+
+  <!-- SKILLS -->
+
+  <main id="skills" class="major-section">
+
+    <h2 data-aos="fade-in" class="md-heading">
+      My
+      <span class="text-blue">Skills</span>
+    </h2>
+    <h3 data-aos="fade-in" class="sm-heading">
+      Here's my proficiency with industry-critical skills
+    </h3>
+
+    <div class="skills">
+
+      <div data-aos="fade-up" class="item"><b class="hidden-title bar-announcer">Domain</b>
+        <div class="hidden expert" data-skill="Algorithms & Data Structures"></div>
+        <div class="hidden advanced" data-skill="Database Management"></div>
+        <div class="hidden advanced" data-skill="Machine Learning"></div>
+        <div class="hidden advanced" data-skill="Web Development"></div>
+        <div class="hidden intermediate" data-skill="Operating Systems"></div>
+        <div class="hidden intermediate" data-skill="Cryptography"></div>
+        <div class="hidden basic" data-skill="Computer Networks"></div>
+       <!-- <div class="hidden basic" data-skill="Mobile Development"></div> -->
+      </div>
+
+      <div data-aos="fade-up" class="item"><b class="hidden-title bar-announcer">Languages</b>
+        <div class="hidden expert" data-skill="Python"></div>
+        <div class="hidden expert" data-skill="Java"></div>
+        <div class="hidden advanced" data-skill="C++"></div>
+        <div class="hidden advanced" data-skill="C"></div>
+        <div class="hidden intermediate" data-skill="TypeScript & JavaScript"></div>
+        <div class="hidden intermediate" data-skill="PHP"></div>
+        <div class="hidden intermediate" data-skill="SQL"></div>
+        <div class="hidden intermediate" data-skill="HTML & CSS"></div>
+        <div class="hidden basic" data-skill="R"></div>
+      </div>
+    
+      <div data-aos="fade-up" class="item"><b class="hidden-title bar-announcer">Methodology</b>
+        <div class="hidden expert" data-skill="Agile"></div>
+        <div class="hidden expert" data-skill="Test-Driven Development"></div>
+        <div class="hidden advanced" data-skill="Scrum"></div>
+        <div class="hidden advanced" data-skill="Extreme Programming"></div>
+      </div>
+
+      
+
+    </div>
+
+
+  </main>
+
+ 
+
+  <hr data-aos="slide-right" size="4" width="80%"/>
+  
+  <!-- EDUCATION -->
+
+  <main id="education" class="major-section">
+    <h1 data-aos="fade-in" class="md-heading">
+      My
+      <span class="text-blue">Studies</span>
+    </h1>
+    <h3 data-aos="fade-in" class="sm-heading">
+      <span class="blue-color">Birla Institute of Technology</span>, Class of 2020
+    </h3>
+    <div data-aos="fade-right" class="education">
+
+      <div data-aos="fade-right" class="bio"><p>
+
+        <span class="text-blue">Degree: </span> M.Tech <br>
+        <span class="text-blue">Course: </span> Software Engineering <br>
+        <span class="text-blue">Relevant Coursework: </span> Artificial Intelligence, Cloud Computing, Software Product Management, Software Testing Methodologies, Agile Methodologies, Open Source Software Engineering<br>
+      </p>
+      </div>
+      
+
+    </div>
+     <h3 data-aos="fade-in" class="sm-heading">
+      <span class="blue-color">Keshav Memorial Institute of Technology</span>, Class of 2013
+    </h3>
+    <div data-aos="fade-right" class="education">
+
+      <div data-aos="fade-right" class="bio"><p>
+        <span class="text-blue">Degree: </span> B.Tech <br>
+        <span class="text-blue">Specialization: </span> Information Technology <br>
+        <span class="text-blue">Relevant Coursework: </span> Data Structures & Algorithms, Database Management, Software Engineering, Operating Systems, Networks Security, C, Java, Probability and Statistics <br>
+        <span class="text-blue">Student Organizations: </span> Software Development Club, Undergraduate Projects Lab, International Students' Association <br>
+      </p>
+      </div>
+      
+
+    </div>
+    
+  </main>
+
+  <hr data-aos="slide-right" size="4" width="80%"/>
+  
+  <!-- CONTACT -->
+
+
+  <main id="contact" class="major-section">
+    <h1 data-aos="fade-in" class="md-heading">
+      Contact
+      <span class="text-blue">Me</span>
+    </h1>
+    <h3 data-aos="fade-in" class="sm-heading">
+      Reach out either here or to <a href="mailto:salilsabnis12@gmail.com"> <u style="color:var(--secondary-color);text-decoration:none;">salilsabnis12@gmail.com</u></a>
+    </h3>
+  
+
+    <form data-aos="fade-up" action="https://formspree.io/f/xeqpkkvw" method="POST">
+      <ul class="form-style-1">
+        <li><label>Name: <span class="required">*</span></label><input type="text" name="name" class="field-long" placeholder="FirstName LastName" required/></li>
+        <li><label>Email: <span class="required">*</span></label>
+        <input type="email" name="email" class="field-long" placeholder="firstname.lastname@example.com" required/></li>
+        <li><label>Subject: </label><input type="text" name="subject" class="field-long" placeholder="Hello, Salil!" /></li>
+        <li><label>Your Message: <span class="required">*</span></label>
+        <textarea name="message" id="field4" class="field-long field-textarea" placeholder="How are you?" required></textarea></li>
+        <li><center><input type="submit" value="Submit"/></center></li>
+      </ul>
+    </form>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/salil-sabnis-a592b75b/" target="_blank" >
+          <i class="fab fa-linkedin fa-1x"></i>
+        </a> &nbsp;
+        <a href="https://github.com/SalilSabnis" target="_blank" >
+          <i class="fab fa-github fa-1x"></i>
+        </a> &nbsp;
+        <a href="https://www.facebook.com/salil.sabnis.7/" target="_blank" >
+          <i class="fab fa-facebook fa-1x"></i>
+        </a> &nbsp;
+    </div>
+    <span class="text-blue sm-heading">Salil Sabnis</span> <span class="sm-heading">© <span id="current-year"></span> </span>
+</footer>
+
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>AOS.init();</script>
+<script>
+/*
+There is a problem with Chrome that changes fonts on refresh
+So a simple fix is to do a hard-refresh when the fonts are about to change
+*/
+function load() {
+  
+  //dynamically load the copy-right year at the footer
+  document.getElementById("current-year").innerHTML = new Date().getFullYear();  
+  
+  if(window.location.href.endsWith("#!")) {
+    window.location.href = window.location.href.substr(0, -2);
+  }
+  
+  //allow the user to change the shade color, by adding ?colorName at end of URL
+  if(window.location.href.indexOf("?") > -1) {
+    var color = window.location.href.split("?")[1];
+    if(color == "outrun") {
+      document.documentElement.setAttribute('data-theme', 'outrun');
+      document.getElementById("dark-mode-text").style.display = "none";
+    }
+    else {
+      //get only the color in a situation like "?colorName#contact"
+      color = color.split("#")[0] 
+      //making sure it is a valid color
+      var s = new Option().style;
+      s.color = color;
+      if(s.color == color){
+        document.documentElement.style.setProperty('--secondary-color', color);
+      }
+    }
+  }
+
+  //to preserve animations on reload, make them hidden again
+  var bars = document.getElementsByClassName("bar");
+  for(var i = 0; i < bars.length; i++) {
+    bars[i].classList.remove("bar");
+    bars[i].classList.add("hidden");
+  }
+
+}
+
+(function() {
+  'use strict';
+
+  var section = document.querySelectorAll(".major-section");
+  var sections = {};
+  var i = 0;
+
+  Array.prototype.forEach.call(section, function(e) {
+    sections[e.id] = e.offsetTop;
+  });
+
+  window.onscroll = function() {
+    scroll();
+    var scrollPosition = document.documentElement.scrollTop || document.body.scrollTop;
+    scrollPosition += document.getElementById("navbar").offsetHeight * 2; //make the navbar light up earlier
+
+    for (i in sections) {
+      if (sections[i] <= scrollPosition) {
+        document.querySelector('.active').setAttribute('class', ' ');
+        document.querySelector('a[href*=' + i + ']').setAttribute('class', 'active');
+      }
+    }
+  };
+})();
+
+
+AOS.init(); //initiate animations
+AOS.init({
+  once: true, //animations only happen once on loading page
+  //mirror: true, //also keep animations when scrolling up
+}); 
+
+// Get the navbar
+var navbar = document.getElementById("navbar");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function scroll() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+
+  //add the bar animations if reached
+  var navbar_skills = document.getElementById("navbar-skills");
+  if(navbar_skills.classList.contains("active")) {
+    var bars = document.getElementsByClassName("hidden");
+    for(var i = 0; i < bars.length; i++) {
+      bars[i].classList.add("bar");
+      bars[i].classList.remove("hidden");
+    }
+    var btitles = document.getElementsByClassName("hidden-title");
+    for(var i = 0; i < btitles.length; i++) {
+      btitles[i].classList.remove("hidden-title");
+    }
+  }
+  
+}
+
+var currentlyNight = false;
+function changeMode() {
+  //change to morning
+  if(currentlyNight) {
+    document.documentElement.setAttribute('data-theme', 'light');
+    document.getElementById("dark-mode-text").innerHTML = "🌙";
+    currentlyNight = false;
+  }
+  //change to night
+  else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+    document.getElementById("dark-mode-text").innerHTML = "☀️";
+    currentlyNight = true;
+  }
+}
+
+function toggleJob(peekID, brightID) {
+  var x = document.getElementById(peekID);
+  var y = document.getElementById(brightID);
+  //showing and hiding the extra information
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    var numberOfJobs = document.querySelectorAll('.experience .item').length;
+    var jobsPerRow = 4;
+    //4 on each side, so only push down 1 and 5
+    if(viewportWidth >= 1171) jobsPerRow = 4;
+    //3 on each side, so push down 1, 2, 4, and 5 
+    else if(viewportWidth >= 769) jobsPerRow = 3;
+    //2 on each side, so push down 1, 2, 3, and 5
+    else if(viewportWidth >= 501) jobsPerRow = 2;
+    //1 on each side, so push down all
+    else jobsPerRow = 1;
+    var smallestAbove = Math.ceil(numberOfJobs / jobsPerRow) * jobsPerRow;  
+    var pattern = jobsPerRow - smallestAbove + numberOfJobs; 
+    //go through all the project IDs (starts at 1), and make the first "pattern" to relative
+    //and then skip over (projectsPerRow - pattern) steps
+    var row = 0;
+    for(var i = 1; i <= numberOfJobs; i += jobsPerRow) {
+      for(var j = i; j <= (row * jobsPerRow) + pattern; j++) {
+        if(peekID == "exp"+j) {
+          x.style.position = "relative";
+        }
+      }
+      row++;
+    }
+
+  } else {
+    x.style.display = "none";
+  }
+  //turning the "Learn More" button bright and dark
+  if (y.className === "btn-dark") {
+    y.className = "btn-clicked";
+  } else {
+    y.className = "btn-dark";
+  }
+  AOS.refresh();
+}
+
+// to toggle projects
+function toggle(showID, learnID) {
+  var x = document.getElementById(showID);
+  var y = document.getElementById(learnID);
+  //showing and hiding the extra information
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    //based on the size of the browser, determine which ones to push down
+    var viewportWidth = window.innerWidth || document.documentElement.clientWidth;
+    var numberOfProjects = document.querySelectorAll('.projects .item').length;
+    var projectsPerRow = 4;
+    //4 on each side, so only push down 1 and 5
+    if(viewportWidth >= 1171) projectsPerRow = 4;
+    //3 on each side, so push down 1, 2, 4, and 5 
+    else if(viewportWidth >= 769) projectsPerRow = 3;
+    //2 on each side, so push down 1, 2, 3, and 5
+    else if(viewportWidth >= 501) projectsPerRow = 2;
+    //1 on each side, so push down all
+    else projectsPerRow = 1;
+    var smallestAbove = Math.ceil(numberOfProjects / projectsPerRow) * projectsPerRow;
+    var pattern = projectsPerRow - smallestAbove + numberOfProjects;
+    //go through all the project IDs (starts at 1), and make the first "pattern" to relative
+    //and then skip over (projectsPerRow - pattern) steps
+    var row = 0;
+    for(var i = 1; i <= numberOfProjects; i += projectsPerRow) {
+      for(var j = i; j <= (row * projectsPerRow) + pattern; j++) {
+        if(showID == "proj"+j) {
+          x.style.position = "relative";
+        }
+      }
+      row++;
+    }
+
+  } else {
+    x.style.display = "none";
+  }
+  //turning the "Learn More" button bright and dark
+  if (y.className === "btn-dark") {
+    y.className = "btn-clicked";
+  } else {
+    y.className = "btn-dark";
+  }
+  AOS.refresh();
+}
+
+</script>
+
+</body>
+
+</html>
