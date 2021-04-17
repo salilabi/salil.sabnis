@@ -7,6 +7,7 @@
 * Creating pull requests
 * Create branches
 * Contributing to the project
+* Learning to resolve merge conflicts
 
 
 
