@@ -10,7 +10,8 @@ let showMenu = false;
 
 //menuBtn.addEventListener('click', toggleMenu);
 
-function toggleMenu() {
+function toggleMenu(){
+  //toggle menu
   if (!showMenu) {
     menuBtn.classList.add('close');
     menu.classList.add('show');
